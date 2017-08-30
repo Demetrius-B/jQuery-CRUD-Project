@@ -1,7 +1,7 @@
 const gulp = require('gulp');
 const sass = require('gulp-sass');
 const browserSync = require('browser-sync').create();
-var babel = require("gulp-babel");
+const babel = require("gulp-babel");
 
 gulp.task('sass', function () {
   console.log('FIRE')
@@ -13,7 +13,7 @@ gulp.task('sass', function () {
     }))
 })
 
-gulp.task('watch', ['browser-sync', 'sass'], 'babel', function () {
+gulp.task('watch', ['browser-sync', 'sass', 'babel'], function () {
   gulp.watch('./stylesheet/**/*.sass', ['sass'])
 })
 

@@ -1,5 +1,4 @@
 //=============== GLOBAL VARIABLES ===============
-@import "reset"
 @import url('https://fonts.googleapis.com/css?family=Roboto:700')
 
 // FONT WEIGHTS
@@ -10,8 +9,9 @@ $bold: 600
 // BASE FONT
 $font: 'Roboto', sans-serif
 
-// 3 MAIN FONT SIZES
-$primary-font-size: 1.8rem
+// FONT SIZES
+$header-fontSize: 2.2rem
+$main-fontSize: 1.6rem
 
 // FONT COLORS
 $primary-color: white
@@ -26,8 +26,15 @@ html
   height: 100%
   margin: 0
   font-size: 62.5%
+  font-family: $font
 
 body
-  background-color: black
   height: 100%
-  font-size: $primary-font-size
+  font-size: $main-fontSize
+
+@import "reset"
+
+footer
+  padding: 2rem
+  p  
+    text-align: center
