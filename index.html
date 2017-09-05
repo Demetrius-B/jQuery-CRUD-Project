@@ -11,36 +11,29 @@
 </head>
 
 <body>
-    <header>
-        <h1>1-2-3 Recipe</h1>
-    </header>
-    <div class="mainMenu">
-        <section class="recipeInfo">
-            <button type="submit" name="editBtn">Edit</button>
-            <!-- Edit Selected Reciple -->
-            <img src="" alt="">
-            <!-- Selected Recipe image -->
-            <p>Recipe Name</p>
-            <!-- Selected Recipe Name -->
-            <img src="" alt="">
-            <!-- Selected Recipe Rating -->
-            <p>Recipe Author</p>
-            <!-- Selected Recipe Author -->
-            <p>Recipe Description</p>
-            <!-- Selected Recipe Description -->
-        </section>
+    <div class="wrapper">
+        <header>
+            <div class="headerText">
+                <h1>Cook</h1>
+                <p>Your personal recipe manager</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Breakfast</a></li>
+                    <li><a href="#">Lunch</a></li>
+                    <li><a href="#">Dinner</a></li>
+                    <li><button type="submit" class="add-items">Add item</button></li>
+                </ul>
+            </nav>
+        </header>
 
         <section class="recipeList">
             <div class="listHeader">
                 <p>Recipe List</p>
-                <img src="img/add.svg" id="add" alt="add to recipe list">
             </div>
         </section>
     </div>
 
-    <footer>
-        <p>Built by. Demetrius Berkeley for PRW</p>
-    </footer>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script type="text/javascript" src="src/app.js"></script>

@@ -1,0 +1,30 @@
+<header>
+        <h1>1-2-3 Recipe</h1>
+    </header>
+    <div class="mainMenu">
+        <section class="recipeInfo">
+            <button type="submit" name="editBtn">Edit</button>
+            <!-- Edit Selected Reciple -->
+            <img src="" alt="">
+            <!-- Selected Recipe image -->
+            <p>Recipe Name</p>
+            <!-- Selected Recipe Name -->
+            <img src="" alt="">
+            <!-- Selected Recipe Rating -->
+            <p>Recipe Author</p>
+            <!-- Selected Recipe Author -->
+            <p>Recipe Description</p>
+            <!-- Selected Recipe Description -->
+        </section>
+
+        <section class="recipeList">
+            <div class="listHeader">
+                <p>Recipe List</p>
+                <img src="img/add.svg" id="add" alt="add to recipe list">
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>Built by. Demetrius Berkeley for PRW</p>
+    </footer>

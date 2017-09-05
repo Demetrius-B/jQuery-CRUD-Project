@@ -19,10 +19,22 @@ $(document).ready(function() {
 
         });
 
-    if (localStorage) {
-        console.log("Local Storage approved!")
-    } else {
-        console.log("Local Storage denied!")
-    }
+    // $('#myList').html(localStorage.getItem('listItem'))
 
+
+    // $('.add-items').submit(function(e) {
+    //     e.preventDefault()
+    //     console.log("hello")
+    //     let item = $('.recipeItem').val()
+    //     if (item) {
+    //         $('#myList').append("<li>" + item + "<button class='remove'>x</button>" + "<button class='edit'>e</button>" + "<hr></li>")
+    //         localStorage.setItem('listItem', $('#myList').html())
+    //         $('#myItem').val("")
+    //     }
+    // })
+
+    // $(document).on('click', '.remove', function() {
+    //     $(this).parent().remove()
+    //     localStorage.setItem('listItems', $('#myList').html())
+    // })
 });

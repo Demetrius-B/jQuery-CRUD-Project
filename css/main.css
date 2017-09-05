@@ -88,70 +88,56 @@ footer {
 
 header {
   display: flex;
-  width: 100vw;
-  margin: 0 auto;
-  border: 2px solid blue; }
-
-.mainMenu {
-  display: flex; }
-  .mainMenu .ingredients {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    width: 25vw;
-    padding: 0rem .5rem; }
-  .mainMenu .recipeInfo {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    width: 50vw;
-    border: 2px solid blue; }
-  .mainMenu .recipeList {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    width: 25vw; }
-
-h1 {
-  font-size: 1.6rem; }
-
-.mainMenu .recipeList .listHeader {
-  display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
-  align-items: center;
-  padding: .5rem 1rem; }
-  .mainMenu .recipeList .listHeader p {
-    font-size: 2.2rem; }
-  .mainMenu .recipeList .listHeader img {
-    height: 2rem; }
+  background: url("https://www.rubios.com/sites/default/files/banners/Cooking-Techniques_Hero.jpg") no-repeat center center;
+  background-size: cover;
+  height: 20%;
+  position: relative; }
+  header .headerText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    height: 100%;
+    width: 100%;
+    padding-top: 4rem;
+    padding-bottom: 4rem; }
+    header .headerText h1, header .headerText p {
+      text-align: center;
+      color: white;
+      font-size: 3rem;
+      font-weight: bold; }
+    header .headerText h1 {
+      padding-bottom: 1rem; }
+  header nav {
+    background-color: red;
+    width: 100%;
+    overflow: hidden; }
+    header nav ul {
+      padding: 1rem 1rem; }
+      header nav ul li {
+        padding-right: .5rem;
+        padding-bottom: 1rem;
+        float: left; }
+        header nav ul li:last-child {
+          float: right; }
+        header nav ul li a {
+          text-decoration: none;
+          color: white;
+          font-weight: bold; }
 
-.mainMenu .recipeList .recipes {
-  width: 90%;
-  margin: 0 auto;
-  padding-top: 1rem; }
-  .mainMenu .recipeList .recipes img {
-    width: 100%; }
-  .mainMenu .recipeList .recipes p {
-    font-size: 2rem;
-    text-align: center; }
-
-.mainMenu .ingredients .ingredientsHeader {
-  padding: .5rem 0rem; }
-  .mainMenu .ingredients .ingredientsHeader p {
-    font-size: 2.2rem; }
-
-.mainMenu .ingredients .ingredientsList {
+.wrapper {
   display: flex;
   flex-direction: column; }
-  .mainMenu .ingredients .ingredientsList .item {
+  .wrapper .recipeList {
     display: flex;
-    align-items: center;
-    border-top: 1px solid black;
-    padding: 1rem 1rem 1rem 0rem; }
-    .mainMenu .ingredients .ingredientsList .item:nth-of-type(4) {
-      border-bottom: 1px solid black; }
-    .mainMenu .ingredients .ingredientsList .item i {
-      width: 2rem; }
-    .mainMenu .ingredients .ingredientsList .item p {
-      font-size: 2rem;
-      padding-left: .5rem; }
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 5rem;
+    width: 100vw; }
+    .wrapper .recipeList .listHeader {
+      padding-left: 1rem;
+      width: 100vw; }
+    .wrapper .recipeList .recipeItem {
+      padding: 1rem; }

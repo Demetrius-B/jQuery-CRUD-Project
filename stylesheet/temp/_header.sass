@@ -1,0 +1,40 @@
+header
+  display: flex 
+  flex-wrap: wrap
+  justify-content: space-between
+  background: url('https://www.rubios.com/sites/default/files/banners/Cooking-Techniques_Hero.jpg') no-repeat center center
+  background-size: cover
+  height: 20%
+  position: relative
+  .headerText
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-self: center
+    height: 100%
+    width: 100%
+    padding-top: 4rem
+    padding-bottom: 4rem
+    h1, p
+      text-align: center
+      color: white
+      font-size: 3rem
+      font-weight: bold
+    h1
+      padding-bottom: 1rem      
+  nav
+    background-color: red
+    width: 100%
+    overflow: hidden
+    ul
+      padding: 1rem 1rem
+      li
+        padding-right: .5rem
+        padding-bottom: 1rem
+        float: left
+        &:last-child
+          float: right
+        a
+          text-decoration: none
+          color: white
+          font-weight: bold
